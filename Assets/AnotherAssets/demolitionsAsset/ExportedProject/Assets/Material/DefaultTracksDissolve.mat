@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DefaultTracksDissolve
+  m_Shader: {fileID: 4800000, guid: e4a625464bb19084da798f71b25e95da, type: 3}
+  m_ValidKeywords:
+  - RENDERING_FLAT
+  m_InvalidKeywords:
+  - RENDERING_CAVITY
+  - _CULL_BACK
+  - _DISSOLVEGLOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DirectionMap:
+        m_Texture: {fileID: 2800000, guid: 87d22b50bec97184685b5e220d804ba7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: 1d81ec5ea9e40b7419b57fdbb004eee5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: ec5d0b69339ad9f40a06500b25266410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+    - _AlphaCutoff: 1
+    - _BlendTint: 0.403
+    - _BumpScale: 1
+    - _CavityMultiplier: 1.36
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DissolveAmount: 0
+    - _DissolveDelay: 0.2
+    - _DissolveGlow: 1
+    - _DissolveGlowFollow: 0
+    - _DissolveGlowIntensity: 0.5
+    - _DissolveRampUp: 5
+    - _DstBlend: 0
+    - _EdgeThickness: 0.1
+    - _Emission: 0
+    - _FresnelPower: 6.51
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormIntensity: 1
+    - _NormalPower: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RampIntensity: 0.5
+    - _ReflectionPower: 2.04
+    - _ReflectionSmoothness: 1
+    - _RimPower: 8
+    - _Rotation: 0
+    - _ShadowIntensity: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecIntensity: 0.2
+    - _SpecPower: 5.26
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TilingX: 0.135
+    - _TilingY: 0.135
+    - _TintPower: 0
+    - _UVSec: 0
+    - _UseEdgeColorRamp: 0
+    - _XMax: 0
+    - _XMin: 0
+    - _YClip: 8.42
+    - _YMax: 0
+    - _YMin: 0
+    - _ZMax: 0
+    - _ZMin: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.882353, g: 0.19607845, b: 0.18039216, a: 1}
+    - _DissolveGlowColor: {r: 1, g: 0.5, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _InnerEdgeColor: {r: 0.043137312, g: 0, b: 0.5, a: 1}
+    - _OuterEdgeColor: {r: 0, g: 1, b: 0.3893013, a: 1}
+    - _RimColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TexColor: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

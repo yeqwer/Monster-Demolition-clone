@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93dda1ec1df8e9c6fd61a0e7e8b7281d, type: 3}
+  m_Name: LevelsInstaller
+  m_EditorClassIdentifier:
+  levelsData: {fileID: 11400000, guid: bc31ac81cade3814683ae27fb213378f, type: 2}
+  relaunchConfig:
+    vehicleIdleSpeed: 0.2
+    vehicleIdleTime: 2
+    maxTime: 8
+    zPos: -100
+    groundFinishTime: 1.5
+    maxLevelEndTime: 5
+    missPlaneOffset: 15
+    finishLayer: 8
+  bundlesPreloadConfig:
+    LaunchTimeoutSeconds: 0
+    LaunchPreloadLevelsCount: 0
+    NextLevelTimeoutSeconds: 0
+    NextLevelsPreloadCount: 0
+  vehicleCamerasPrefab: {fileID: 114894765906385196, guid: 98a4577986fefe84e877943f637c68be, type: 2}
+  vehicleGarageVfxPrefab: {fileID: 114004354403416331, guid: d8532855e358c7a42bd6d68d4408d652, type: 2}
+  monsterHealthBarPrefab: {fileID: 114495309673393898, guid: e72c854c2a11d7241936006586823c4e, type: 2}
+  remoteCameraConfig: {fileID: 11400000, guid: 5018ecf44b696454baf1c7965353ab3e, type: 2}
+  defaultDamageConfigProvider: {fileID: 11400000, guid: 09468a39964c5e045b39c9ae8d630995, type: 2}
+  onLevelInterRestriction:
+    RequiredLevelIndex: 1

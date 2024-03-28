@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1833034969865084579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833034969865084584}
+  - component: {fileID: 7887334466191929781}
+  - component: {fileID: 1833034969865084583}
+  - component: {fileID: 1833034969865084582}
+  - component: {fileID: 1833034969865084581}
+  - component: {fileID: 1833034969865084580}
+  - component: {fileID: 5591809375312945501}
+  m_Layer: 0
+  m_Name: AttackManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1833034969865084584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833034969865084579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7887334466191929781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833034969865084579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbeb78e5470e59a4caeb466f2831d91c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plazmaTargetsSpawner: {fileID: 3857027594702863562, guid: b6022720aa2b93b49ad1193be68d9008, type: 3}
+  bombsTargetsSpawner: {fileID: 8877757850626201230, guid: 4eb10a4e7be06b74d9e660236961614e, type: 3}
+  rocksTargetsSpawner: {fileID: 7725740693093073488, guid: 24f4888d26874834494a1a70b6e7aed1, type: 3}
+  positionPlazma: {x: 0, y: 0, z: 0}
+  positionBombs: {x: 0, y: 0, z: 120}
+  positionRocks: {x: 0, y: 0, z: 170}
+--- !u!114 &1833034969865084583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833034969865084579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47affce243faf7c488edb7e0b2794cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _triggerDistance: 200
+  lazerSpawnPrefab: {fileID: 559631893685908649, guid: 5aab0e7e0bbbd3f41a2a6aab4018c95c, type: 3}
+  color: {r: 255, g: 255, b: 255, a: 1}
+  lazerColorChanger: []
+--- !u!114 &1833034969865084582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833034969865084579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32224562d687c71408caa60d48a47c09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _triggerDistance: Infinity
+  targetCountMin: 3
+  targetCountMax: 5
+--- !u!114 &1833034969865084581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833034969865084579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742abe7645e5e6840bc8a705d4805cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _triggerDistance: 200
+  plazmaType: 0
+  plazmaCountMin: 8
+  plazmaCountMax: 12
+--- !u!114 &1833034969865084580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833034969865084579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5de583170167844389051098366dc6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _triggerDistance: Infinity
+  rockType: 1
+  targetCountMin: 4
+  targetCountMax: 6
+--- !u!114 &5591809375312945501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833034969865084579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1066e354d9670094ca455969e2f44811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
